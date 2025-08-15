@@ -1,6 +1,6 @@
 
 def daily_message():
-    from datetime import datetime
+    from datetime import datetim
     today = datetime.now().strftime("%Y-%m-%d")
     return f"Hello GitHub! Today is {today}"
 
